@@ -5,7 +5,6 @@ I corsi previsti per il primo anno all'Università di Pisa sono:
 - Geometria 1 (15 cfu)
 - Aritmetica (9 cfu)
 - Fondamenti di programmazione (9 cfu)
-- [Vai alla cartella Fisica I](./FISICA%201/)
-
+- [Fisica I con Laboratorio](./FISICA%201/)
 
 - Laboratorio di introduzione alla matematica computazionale (6 cfu - idoneità)
