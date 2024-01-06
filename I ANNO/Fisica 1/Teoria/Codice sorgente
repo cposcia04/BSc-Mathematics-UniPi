@@ -1,1 +1,45 @@
+\documentclass[italian,11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{nameref}
+\usepackage{thmtools}
+\usepackage{xcolor}
 
+\begin{document}
+	
+	% Frontespizio
+	\begin{titlepage}
+		\centering
+		% Percorso dell'immagine
+		\includegraphics[width=0.9\linewidth]{C:/Users/camil/Downloads/UNIVER} 
+		
+		\vspace{1cm}
+		
+		% Dipartimento e Corso di Laurea
+		\textsc{\Large Dipartimento di Matematica} \\
+		\vspace{0.5cm}
+		\textsc{\large Corso di Laurea in Matematica} \\
+		
+		\vspace{3cm}
+		
+		% Titolo del corso
+		\LARGE \textbf{Fisica I con Laboratorio} \\
+		
+		\vspace{6cm}
+		
+		% Nome dello studente e anno accademico
+		\large Camilla Poscia \\
+		
+		\vspace{0.2cm}
+		Anno Accademico 2023-2024 \\
+		
+		\vspace{1cm}
+	\end{titlepage}
+	
+\end{document}
