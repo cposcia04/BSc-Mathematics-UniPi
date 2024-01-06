@@ -11,18 +11,7 @@
             text-align: center;
             padding: 50px;
         }
-    h1 {
-        color: #333;
-    }
-
-    p {
-        color: #555;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+  
 </style>
 </head>
 <body>
