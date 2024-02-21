@@ -1,1 +1,1 @@
-# Fisica I con laboratorio a.a. 2023/2024
+# Fisica I con Laboratorio A.A. 2023/2024
