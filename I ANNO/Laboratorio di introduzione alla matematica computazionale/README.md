@@ -1,3 +1,4 @@
 # Laboratorio di introduzione alla matematica computazionale
 Appunti delle lezioni del secondo semestre (A.A. 2023/2024)
 ### Lezioni:
+- Lezione 4 (26/02/2024)
