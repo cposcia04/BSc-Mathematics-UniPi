@@ -1,6 +1,7 @@
-\documentclass[italian,11pt,a4paper]{report}
+\documentclass[italian,11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[width=17.00cm, height=24.00cm]{geometry}
 \usepackage{babel}
 \usepackage{amssymb}
 \usepackage{graphicx}
@@ -10,38 +11,47 @@
 \usepackage{nameref}
 \usepackage{thmtools}
 \usepackage{xcolor}
-
+\title{fisica}
+\author{Camilla Poscia}
 \begin{document}
+
+\begin{titlepage} 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{C:/Users/camil/OneDrive/Immagini/marchio_unipi_pant541}
+	\label{fig:marchiounipipant541}
+\end{figure}
+
+	\vspace{20mm}
 	
-	% Frontespizio
-	\begin{titlepage}
-		\centering
+	\begin{Large}
+		\begin{center}
+			Dipartimento di Matematica\\ Corso di Laurea Triennale in Matematica\\
+			\vspace{30mm}
 		
-		\vspace{1cm}
-		
-		% Dipartimento e Corso di Laurea
-		\textsc{\Huge Università di Pisa} \\
-		\vspace{0.2cm}
-		\hrulefill\par
-		\vspace{0.4cm}
-		{\large Corso di Laurea in Matematica} \\
-		
-		\vspace{7cm}
-		
-		% Titolo del corso
-		{\Large Appunti del corso di}\\
-		\vspace{0.75cm}
-		\LARGE \textsc{\textbf{Fisica I con Laboratorio}} \\
-		
-		\vspace{7cm}
-		
-		% Nome dello studente e anno accademico
-		\large Camilla Poscia \\
-		
-		\vspace{0.2cm}
-		Anno Accademico 2023-2024 \\
-		
-		\vspace{1cm}
-	\end{titlepage}
+			{\huge{\bf Fisica I con Laboratorio}}\\
+		\end{center}
+	\end{Large}
 	
+	
+	\vspace{7,5 cm}
+
+	\begin{minipage}[t]{0.47\textwidth}
+		{\large{\bf Professore:}\\ \large{Prof. Ignazio Bombaci}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.47\textwidth}\raggedleft
+		{\large{\bf Autore:}\\ \large{Camilla Poscia}}
+	\end{minipage}
+	
+	\vspace{25mm}
+	
+	\hrulefill
+	
+	\vspace{5mm}
+	
+	\centering{\large{\bf Anno Accademico 2023/2024 }}
+	
+\end{titlepage}
+
 \end{document}
