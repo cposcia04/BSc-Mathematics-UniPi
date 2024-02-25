@@ -1,4 +1,4 @@
-# I ANNO - A.A. 2023/2024
+# 1° anno - a.a. 2023/2024
 
 Corsi del primo anno all'Università di Pisa:
 - Analisi Matematica 1 (15 cfu)
