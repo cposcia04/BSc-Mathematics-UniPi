@@ -6,4 +6,4 @@ Corsi del primo anno all'Università di Pisa:
 - [Aritmetica](./Aritmetica) (9 cfu)
 - Fondamenti di programmazione (9 cfu)
 - [Fisica I con Laboratorio](./Fisica%201/) (9 cfu)
-- [Laboratorio di introduzione alla matematica computazionale](./Laboratorio%20di%20introduzione%20alla%20matematica%20computazionale/) (6 cfu - idoneità)
+- Laboratorio di introduzione alla matematica computazionale (6 cfu - idoneità)
