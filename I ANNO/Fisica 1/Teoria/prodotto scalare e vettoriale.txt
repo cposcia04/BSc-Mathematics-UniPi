@@ -15,3 +15,4 @@ Ad esempio, se $a \perp b$, cioè i due vettori sono perpendicolari (l'angolo tr
 	La \textbf{direzione} è quella della retta perpendicolare al piano individuato dai due vettori e che passa per l'origine. Il \textbf{verso} è determinato attraverso la\textit{ regola della mano destra}.
 
 \subparagraph{Regola della mano destra} 
+Come già detto, la regola della mano destra permette di determinare il verso del prodotto vettoriale tra due vettori. Consiste nell'utilizzare tre dita della mano destra: pollice, indice e medio. 
