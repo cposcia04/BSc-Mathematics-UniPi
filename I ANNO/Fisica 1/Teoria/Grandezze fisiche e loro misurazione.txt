@@ -1,8 +1,1 @@
-\chapter{Grandezze fisiche e loro misurazione}
-	\section{Grandezze e unità di misura}
-	La fisica è una scienza quantitativa, basata su misure, quindi su esperimenti. Ciascuna misura presuppone la scelta di una unità di misura e di strumenti di misurazione. \\
-	Le unità di misura possono essere: \textit{fondamentali} (permettono di esprimere l'unità di misura di ogni altra grandezza fisica) e \textit{derivate}.\\
-	Le grandezze fondamentali che interessano a noi per questo corso sono quelle relative alla meccanica che, nel SI (Sistema Internazionale) sono:
-la \textbf{lunghezza} (metro - m), la \textbf{massa} (chilogrammo - kg) e il \textbf{tempo} (secondo - s).\\
-Alcuni esempi di grandezze derivate sono la velocità, che è definita (come vedremo) $v=\frac{\Delta s}{\Delta t}$ con unità di misura $\frac{m}{s}$ e l'accelerazione, cioè $v=\frac{\Delta v}{\Delta t}$. L'unità di misura si ottiene a partire da quelle della velocità ($\frac{m}{s}$) e del tempo ($s$), che quindi fa ottenere: $\frac{m}{s \cdot s}= \frac{m}{s^2}$. \\
-In fisica è utile conoscere i prefissi per i multipli e i sottomultipli di una grandezza, che sono riassunti nella tabella.
+
