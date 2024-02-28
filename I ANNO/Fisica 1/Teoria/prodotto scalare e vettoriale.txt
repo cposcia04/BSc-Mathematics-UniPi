@@ -7,7 +7,7 @@ Ad esempio, se $a \perp b$, cioè i due vettori sono perpendicolari (l'angolo tr
 	\item commutativa: $\overset{\to}{a} \cdot \overset{\to}{b} = \overset{\to}{b} \cdot \overset{\to}{a}$;
 	\item distributiva: $\overset{\to}{a} \cdot (\beta \overset{\to}{b} + \gamma \overset{\to}{c}) = \beta \overset{\to}{a} \cdot \overset{\to}{b} +\gamma \overset{\to}{a} \cdot \overset{\to}{c} $;
 	\item $\overset{\to}{a} \cdot \overset{\to}{a} = a^2$, cioè il prodotto scalare tra due vettori  $\overset{\to}{a}$ è pari al quadrato del modulo del vettore.
-\paragraph{Prodotto vettoriale} Il prodotto vettoriale tra due vettori $\overset{\to}{a}$ e \overset{\to}{b} dà come risultato un altro vettore \overset{\to}{c}. La notazione è la seguente: 
-\[\overset{\to}{c} = \overset{\to}{a} \times \overset{\to}{b} \] e si legge "a vettor b".\\
-\overset{\to}{c} è un vettore che ha per modulo $c=ab \sin \theta \qquad 0 \leq theta\leq \pi$. \\ 
-La direzione è perpendicolare al piano individuato dai due vettori e il verso è determinato attraverso la regola della mano destra.
+	\paragraph{Prodotto vettoriale} Il prodotto vettoriale tra due vettori $\overset{\to}{a}$ e $\overset{\to}{b}$ dà come risultato un altro vettore $\overset{\to}{c}$. La notazione è la seguente: 
+	\[\overset{\to}{c} = \overset{\to}{a} \times \overset{\to}{b} \] e si legge "a vettor b".\\
+	$\overset{\to}{c}$ è un vettore che ha per \textbf{modulo} $c=ab \sin \vartheta \qquad 0 \leq \vartheta\leq \pi$. \\ 
+	La \textbf{direzione} è perpendicolare al piano individuato dai due vettori e il \textbf{verso} è determinato attraverso la\textit{ regola della mano destra}.
