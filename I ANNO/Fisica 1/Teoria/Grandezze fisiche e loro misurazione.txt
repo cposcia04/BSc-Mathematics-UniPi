@@ -1,0 +1,23 @@
+\chapter{Grandezze fisiche e loro misurazione}
+	\section{Grandezze e unità di misura}
+	La fisica è una scienza quantitativa, basata su misure, quindi su esperimenti. Ciascuna misura presuppone la scelta di una unità di misura e di strumenti di misurazione. \\
+	Le unità di misura possono essere: \textit{fondamentali} (permettono di esprimere l'unità di misura di ogni altra grandezza fisica) e \textit{derivate}.\\
+	Le grandezze fondamentali che interessano a noi per questo corso sono quelle relative alla meccanica che, nel SI (Sistema Internazionale) sono:
+la \textbf{lunghezza} (metro - m), la \textbf{massa} (chilogrammo - kg) e il \textbf{tempo} (secondo - s).\\
+Alcuni esempi di grandezze derivate sono la velocità, che è definita (come vedremo) $v=\frac{\Delta s}{\Delta t}$ con unità di misura $\frac{m}{s}$ e l'accelerazione, cioè $v=\frac{\Delta v}{\Delta t}$. L'unità di misura si ottiene a partire da quelle della velocità ($\frac{m}{s}$) e del tempo ($s$), che quindi fa ottenere: $\frac{m}{s \cdot s}= \frac{m}{s^2}$. \\
+In fisica è utile conoscere i prefissi per i multipli e i sottomultipli di una grandezza, che sono riassunti in figura \ref{fig:udm} \begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{"../OneDrive/Desktop/Matematica UniPi/PRIMO ANNO/Fisica I con laboratorio/udm"}
+	\caption{Multipli e sottomultipli nel SI}
+	\label{fig:udm}
+\end{figure}
+
+ \subsection{Grandezze fisiche} Le grandezze fisiche si suddividono in scalari, vettoriali e tensoriali. 
+ \begin{itemize}
+ 	\item \textbf{Grandezze scalari} \label{scalari}: Fissata un'unità di misura, sono caratterizzate da un numero e si indicano con una lettera maiuscola o minuscola (ad es. temperatura $T$). Un esempio di grandezza scalare è la pressione $P$ con unità di misura $Pa$ (Pascal). Essendo la pressione il rapporto tra una forza e una superficie, si avrà che $1 Pa = 1 \frac{N}{m^2} = 1 \frac{Kg}{ms^2}$
+
+ 	\item \textbf{Grandezze vettoriali}: Hanno \textit{intensità} cioè il modulo o norma (indicata con $||\overset{\to}{v}||$ e sempre $\geq 0$), \textit{direzione} e \textit{verso}. Alcuni esempi sono il vettore spostamento $\overset{\to}{\Delta}$, velocità $\overset{\to}{v}$ e forza $\overset{\to}{F}$.\\
+ 	In fisica, le grandezze vettoriali vengono rappresentate graficamente come dei segmenti orientati chiamati vettori, che sono approfonditi al capitolo \ref{vectors}.
+ \end{itemize}
+
+
