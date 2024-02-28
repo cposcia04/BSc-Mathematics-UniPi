@@ -1,16 +1,29 @@
 \chapter{Vettori in fisica} \label{vectors}
 Le grandezze vettoriali si indicano come dei segmenti orientati la cui lunghezza è proporzionale all'intensità e la freccetta ne indica il verso.\\
-Nelle grandezze vettoriali sono definite le stesse operazioni che valgono per gli spazi vettoriali in matematica.\paragraph{Spazi vettoriali} Uno spazio vettoriale su un campo $\mathbb{K}$ è un insieme V che ha per elementi dei vettori e su cui sono definite due operazioni:
+Nelle grandezze vettoriali sono definite le stesse operazioni che valgono per gli spazi vettoriali in matematica.
+
+\paragraph{Spazi vettoriali} Ricordiamo che uno spazio vettoriale su un campo $\mathbb{K}$ è un insieme V che ha per elementi dei vettori e su cui sono definite due operazioni:
 \begin{itemize}
-	\item somma: $\overset{\to}{a} + \overset{\to}{b} = \overset{\to}{r}   $ 
+	\item somma: $\overset{\to}{a} + \overset{\to}{b} = \overset{\to}{r}$ 
 	\item prodotto di un vettore  per uno scalare: $\overset{\to}{a} k = \overset{\to}{b} \qquad \forall k\in \mathbb{R}$ 
 \end{itemize}
+
 Queste due operazioni soddisfano le seguenti proprietà, che quindi valgono anche nel caso dei vettori:
 \begin{itemize}
 	\item esistenza del vettore nullo (elemento neutro): $\exists \overset{\to}{0} : \overset{\to}{a} + \overset{\to}{0} =  \overset{\to}{a}$
 	\item proprietà commutativa: $\overset{\to}{a} + \overset{\to}{b} =  \overset{\to}{b} + \overset{\to}{a} $
 	\item proprietà associativa: $(\overset{\to}{a} + \overset{\to}{b})+\overset{\to}{c}= \overset{\to}{a}+(\overset{\to}{b}+\overset{\to}{c})$
-	\item esistenza del vettore opposto: $\overset{\to}{a} \implies - \overset{\to}{a}=-(\overset{\to}{a})$
-	
+	\item esistenza del vettore opposto: $\overset{\to}{a} \implies - \overset{\to}{a}=-(\overset{\to}{a})$	
 \end{itemize}
-	
+
+\subsection{Coordinate di un vettore}
+
+
+
+
+
+\paragraph{Vettori linearmente indipendenti}
+Presi $n$ vettori $\overset{\to}{u_1},\overset{\to}{u_2},...\overset{\to}{u_n}$, si dicono \textit{linearmente indipendenti} se la seguente equazione ammette come unica soluzione $c_1=c2=...=c_n=0$:
+\[c_1\overset{\to}{u_1}+c_2\overset{\to}{u_2}+...+c_n\overset{\to}{u_n}=0\].
+
+
