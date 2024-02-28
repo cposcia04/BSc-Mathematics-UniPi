@@ -1,0 +1,9 @@
+\section{Prodotti scalari e vettoriali}
+\paragraph{Prodotto scalare} Il prodotto scalare tra due vettori dà come risultato una grandezza scalare che, come visto nella sezione \ref{scalari} è un numero seguito da una unità di misura. Il prodotto scalare si definisce come:
+\[\overset{\to}{a} \cdot \overset{\to}{b} = |a| |b| cos (\theta)\] in cui $|a|$ e $|b|$ sono rispettivamente i moduli dei vettori $\overset{\to}{a}$ e $\overset{\to}{b}$ e $\theta$ è l'angolo tra essi compreso, che si misura a partire dal primo fino al secondo vettore.\\
+Ad esempio, se $a \perp b$, cioè i due vettori sono perpendicolari (l'angolo tra essi compreso è $\frac{\pi}{2}$) allora $\overset{\to}{a} \cdot \overset{\to}{b}=0$ perché $cos (\frac{\pi}{2})=0$.
+\subparagraph{Proprietà} Il prodotto scalare soddisfa alcune proprietà:
+\begin{itemize}
+	\item commutativa: $\overset{\to}{a} \cdot \overset{\to}{b} = \overset{\to}{b} \cdot \overset{\to}{a}$;
+	\item distributiva: $\overset{\to}{a} \cdot (\beta \overset{\to}{b} + \gamma \overset{\to}{c}) = \beta \overset{\to}{a} \cdot \overset{\to}{b} +\gamma \overset{\to}{a} \cdot \overset{\to}{c} $;
+	\item $\overset{\to}{a} \cdot \overset{\to}{a} = a^2$, cioè il prodotto scalare tra due vettori  $\overset{\to}{a}$ è pari al quadrato del modulo del vettore.
