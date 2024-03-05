@@ -5,7 +5,7 @@
 - **Lezione 03 (29 feb 2024):** Accelerazione scalare, tangenziale e centripeta. Moto rettilineo uniforme, moto uniformemente accelerato, moto di caduta libera di un  corpo, moto parabolico di un punto materiale: tempo di caduta, tempo di volo, gittata.
 
 ### Laboratorio
-- **Lab 01 (5 mar 2024):**
+- **Lab 01 (5 mar 2024):** 
 
 
 ### Esercitazioni
