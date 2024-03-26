@@ -8,5 +8,3 @@
 - **Lab 01 (5 mar 2024):** 
 
 
-### Esercitazioni
-- **Es 01 (6 mar 2024):**
