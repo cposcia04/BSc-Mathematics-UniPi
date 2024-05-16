@@ -1,0 +1,52 @@
+\documentclass[italian,11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[width=17.00cm, height=24.00cm]{geometry}
+\usepackage{babel}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{nameref}
+\usepackage{thmtools}
+\usepackage{xcolor}
+
+\title{Aritmetica}
+\author{Camilla Poscia}
+
+\begin{document}
+	
+	\begin{titlepage}
+		\centering
+		\includegraphics[width=0.7\linewidth]{"C:/Users/camil/Downloads/logo (1)"} \\
+		
+		\vspace{20mm}
+		
+		\begin{Large}
+			\textbf{Dipartimento di Matematica} \\
+			\textbf{Corso di Laurea Triennale in Matematica} \\
+		\end{Large}
+		
+		\vspace{30mm}
+		
+		\huge
+		\textbf{Aritmetica} \\
+		
+		\vspace{65mm}
+		
+		\LARGE
+		\textbf{Camilla Poscia} \\
+		
+		\vfill
+		
+		\hrulefill
+		
+		\vspace{5mm}
+		
+		\Large
+		\textbf{Anno Accademico 2023/2024}
+		
+	\end{titlepage}
+	
+\end{document}
