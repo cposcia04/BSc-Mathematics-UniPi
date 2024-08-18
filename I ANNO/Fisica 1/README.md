@@ -15,7 +15,7 @@
 
 - **Lezione 12 (9 apr 2024):** Dinamica del punto materiale (cont): momento angolare, momento di una forza, teorema del momento dell'impulso. Dinamica dei sistemi di N punti materiali: centro di massa, quantita` di moto totale, primo teorema del centro di massa; forze interne ed esterne; 1^a equazione della dinamica dei sistemi di punti materiali. 2^o teorema del centro di massa; momento angolare totale, 2^a equazione della dinamica dei sistemi di punti materiali.
 
-- **Lezione 13 (10 apr 2024):** Dinamica dei sistemi di N punti materiali (cont.): 3^o teorema del centro di massa; sistema isolato; legge di conservazione della quantita` di moto; legge di conservazione del momento angolare. Relazione tra le leggi di conservazione della quantita` di moto e del momento angolare con la 3^a legge di Newton. Sistemi fisici continui: densita`, centro di massa, quantita` di moto, etc.. 
+- **Lezione 13 (10 apr 2024):** Dinamica dei sistemi di N punti materiali (cont.): 3^o teorema del centro di massa; sistema isolato; legge di conservazione della quantita` di moto; legge di conservazione del momento angolare. Relazione tra le leggi di conservazione della quantita` di moto e del momento angolare con la 3^a legge di Newton. Sistemi fisici continui: densita`, centro di massa, quantita` di moto, etc..
 
 - **Lezione 14 (11 apr 2024):** Dinamica dei sistemi di N punti materiali (cont.): sistema di riferimento del centro di massa; teorema di Koenig per il momento angolare; energia cinetica per un sistema di N punti materiali; teorema di Koenig per l'energia cinetica. Lavoro ed energia per un sistema di punti materiali: teorema delle forze vive. Lavoro delle forze interne per un sistema di punti materiali. 
 
