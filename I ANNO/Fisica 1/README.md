@@ -1,5 +1,3 @@
-Ecco la guida riscritta in formato markdown:
-
 # Fisica I con Laboratorio A.A. 2023/2024
 
 ## Lezioni teoriche
