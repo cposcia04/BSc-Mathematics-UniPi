@@ -24,13 +24,15 @@
 - **Lezione 16 (24 apr 2024):** Legge di trasformazione della velocita` e dell'accelerazione tra due sistemi di riferimento. (Ignazio Bombaci)
 Mar 30/04/2024 09:00-11:00 (2:0 h) lezione: Corpi rigidi: moti traslatori puri; moti rotatori con asse fisso; momento di inerzia; teorema di Huygens-Steiner; Calcolo del momento di inerzia di corpi omogenei. (Ignazio Bombaci)
 
-Mar 07/05/2024 09:00-11:00 (2:0 h) lezione: Dinamica dei corpi rigidi in moto attorno ad un asse fisso: momento assiale delle forze esterne, calcolo del momento delle forze esterne perpendicolare all'asse di rotazione. Pendolo fisico. (Ignazio Bombaci)
-Mar 14/05/2024 09:00-11:00 (2:0 h) lezione: Energia cinetica di un corpo rigido. Lavoro delle forze esterne su un corpo rigido. Rotolamento di una ruota: condizione per il puro rotolamento. (Ignazio Bombaci)
-Mer 15/05/2024 09:00-10:00 (1:0 h) lezione: Rotolamento di una ruota (cont.): asse di istantanea rotazione, energia cinetica. Ruolo della forza di attrito sul moto di una ruota. (Ignazio Bombaci)
-Mer 15/05/2024 10:00-11:00 (1:0 h) esercitazione: Esercizi di dinamica del corpo rigido: moto di una ruota su un piano orizzotale scabro. (Ignazio Bombaci)
-Gio 16/05/2024 11:00-13:00 (2:0 h) esercitazione: Esercizi di dinamica del corpo rigido: rotolamento di una ruota. Statica dei corpi rigidi. (Ignazio Bombaci)
-Mar 21/05/2024 09:00-11:00 (2:0 h) lezione: Gravitazione: il problema del moto apparente dei pianeti sulla sfera celeste; le tre leggi di Keplero; la legge di gravitazione universale di Newton; massa inerziale e massa gravitazionale; energia potenziale gravitazionale. Deduzione della 2a legge di Keplero dalla legge di gravitazione di Newton. Deduzione della 3a legge di Keplero dalla legge di gravitazione di Newton. Moto di un corpo in un campo centrale a simmetria sferica: equazioni del moto; classificazione delle orbite in base al valore del momento angolare e dell'energia meccanica. Orbite circolari. Variazione dell'accelerazione di gravita` g con l'altezza. Velocita` di fuga di un corpo da un pianeta. (Ignazio Bombaci)
-- **Lezione 13 (28 mag 2024):** Moto di un corpo in un campo centrale a simmetria sferica (cont.): calcolo delle orbite a partire dalla legge di gravitazione universale di Newton. Dimostrazione della 3a legge di Keplero nel caso di orbite ellittiche. Sistemi planetari extrasolari, esempi: Kepler-90; TRAPPIST -1. (Ignazio Bombaci)
+- **Lezione 17 (7 mag 2024):** Dinamica dei corpi rigidi in moto attorno ad un asse fisso: momento assiale delle forze esterne, calcolo del momento delle forze esterne perpendicolare all'asse di rotazione. Pendolo fisico. (Ignazio Bombaci)
+
+- **Lezione 18 (14 mag 2024):** Energia cinetica di un corpo rigido. Lavoro delle forze esterne su un corpo rigido. Rotolamento di una ruota: condizione per il puro rotolamento. (Ignazio Bombaci)
+
+- **Lezione 19 (15 mag 2024):** Rotolamento di una ruota (cont.): asse di istantanea rotazione, energia cinetica. Ruolo della forza di attrito sul moto di una ruota. (Ignazio Bombaci)
+
+- **Lezione 20 (21 mag 2024):** Gravitazione: il problema del moto apparente dei pianeti sulla sfera celeste; le tre leggi di Keplero; la legge di gravitazione universale di Newton; massa inerziale e massa gravitazionale; energia potenziale gravitazionale. Deduzione della 2a legge di Keplero dalla legge di gravitazione di Newton. Deduzione della 3a legge di Keplero dalla legge di gravitazione di Newton. Moto di un corpo in un campo centrale a simmetria sferica: equazioni del moto; classificazione delle orbite in base al valore del momento angolare e dell'energia meccanica. Orbite circolari. Variazione dell'accelerazione di gravita` g con l'altezza. Velocita` di fuga di un corpo da un pianeta. (Ignazio Bombaci)
+
+- **Lezione 21 (28 mag 2024):** Moto di un corpo in un campo centrale a simmetria sferica (cont.): calcolo delle orbite a partire dalla legge di gravitazione universale di Newton. Dimostrazione della 3a legge di Keplero nel caso di orbite ellittiche. Sistemi planetari extrasolari, esempi: Kepler-90; TRAPPIST -1. (Ignazio Bombaci)
 
 
 
