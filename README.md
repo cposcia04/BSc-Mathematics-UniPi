@@ -17,3 +17,9 @@
 - Elementi di teoria degli insiemi (6 cfu)
 
  ## III anno
+- Fisica II
+- Fisica III
+- Meccanica razionale
+- A scelta (6 cfu)
+- Ricerca operativa (6 cfu)
+- Analisi Matematica 3 (6 cfu)
