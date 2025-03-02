@@ -11,7 +11,7 @@
 
 - Algebra 1 (6 cfu)
 - Analisi Numerica con Laboratorio (9 cfu)
-- [Elementi di Probabilità e Statistica](Elementi%20di%20Probabilità%20e%20Statistica) (6 cfu)
+- [Elementi di Probabilità e Statistica](./II%20ANNO./Elementi%20di%20Probabilità%20e%20Statistica) (6 cfu)
 - Analisi Matematica 2 (12 cfu)
 - Geometria 2 (12 cfu)
 - Elementi di teoria degli insiemi (6 cfu)
