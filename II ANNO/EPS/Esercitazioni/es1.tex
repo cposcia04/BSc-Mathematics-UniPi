@@ -20,6 +20,18 @@ Scrivere poi un’espressione per la probabilità che nel numero il 3 appaia pri
 
 \textit{Soluzione} \quad 
 
+\subsubsection{Esercizio 4} Si estraggono due numeri $a$ e $b$ da una scatola contenente $n$ palline numerate da $1$ a $n$. Calcolare la probabilità che $|a-b| = 1$ nell’ipotesi che le estrazioni vengano effettuate:
+(a) senza reinserimento (b) con reinserimento.
+\\
+
+\textit{Soluzione} \quad 
+
+\subsubsection{Esercitazione 5} Due amici si trovano in coda ad uno sportello della loro banca, insieme ad altre n persone. Assumendo di non avere informazioni sul momento del loro arrivo (cioè assumendo che ogni configurazione delle persone in coda è ugualmente probabile), calcolare la probabilità che siano separati
+(a) da esattamente $k$ persone (b) da almeno 3 persone.
+\\
+
+\textit{Soluzione} \quad 
+
 \subsubsection{Esercizio 6} Si scrivono su 11 foglietti di carta le lettere della parola ABRACADABRA, una per foglietto, e le si pongono in un contenitore. Si estraggono poi, a caso, i foglietti. Qual è la probabilità che le lettere, nell’ordine estratto, diano di nuovo la stessa parola?
 \\
 
@@ -34,3 +46,54 @@ $P(\omega)=\frac{1}{|\Omega|}=\frac{1}{11!}$
 \\
 
 $P(\{ABRACADABRA\})=\frac{5! \;2!\; 2!}{11!}$
+
+\subsubsection{Esercizio 7} Quattro giocatori sono ad un tavolo da poker. Determinare la probabilità che, una volta distribuite le
+carte (ognuno dei quattro giocatori riceve 5 carte),
+(a) il primo giocatore riceva esattamente un asso (b) ogni giocatore abbia esattamente un asso.
+\\
+
+\textit{Soluzione} \quad 
+
+\subsubsection{Esercizio 8}
+Siano $A, B, C, D$ quattro eventi tali che $P (A) = 1/2$, $P (A \cap B \cap D) = 1/4$ e $P (A \cap B \cap C \cap D) = 1/9.$
+(a) Dimostrare che le ipotesi fatte non sono in contraddizione con gli assiomi di Kolmogorov. (b) Calcolare, se possibile, $P (A \cap [(B \cap D)^c \cup C ])$.
+\\
+
+\textit{Soluzione} \quad 
+
+\subsubsection{Esercizio 9}
+
+(Paradosso dei compleanni). Consideriamo una classe di $n$ persone e a ognuna di esse associamo un numero da 1 a 365 (per semplicità non si considerano gli anni bisestili) che corrisponde al numero di giorni tra il primo gennaio ed il giorno del rispettivo compleanno. Qual è la probabilità che almeno due persone abbiano il compleanno lo stesso giorno? (Dare una formula per il risultato, e tempo permettendo valutarla con l’aiuto di un computer per $n \in \{2, . . . , 100\}$).
+\\
+
+\textit{Soluzione} \quad 
+
+\subsubsection{Esercizio 10}
+Il problema di Monty Hall è un famoso problema di matematica basato su un quiz televisivo condotto da Monty Hall. Tu (il concorrente) hai davanti tre porte chiuse. C’è un premio ($10^4$ EUR) dietro una porta, e una capra dietro ognuna delle altre due. Ti viene chiesto di scegliere una porta tra le tre, ma non puoi ancora vedere cosa c’è dietro. Monty, che sa cosa c’è dietro ogni porta, apre una delle altre due porte per rivelare che c’è dietro una capra. Quindi ti offre una possibilità per cambiare la tua scelta. E' una buona idea cambiare (assumendo di avere già tante capre a casa, quindi di volere il premio)? Questa domanda genera spesso molta confusione (provate con amici/famiglia!). Un’allettante risposta intuitiva potrebbe essere: dopo che Monty ti ha mostrato una porta senza premio, è ugualmente probabile che il premio si trovi dietro una delle altre due porte. Quindi, cambiare non fa differenza. E' corretto?
+Per fare chiarezza, usiamo il modello più semplice possibile: assumiamo che tu abbia deciso se cambiare o no prima dell’inizio del gioco.
+(a) Lascia che il risultato di l’esperimento sia la porta dietro la quale si nasconde il premio. Trova lo spazio di probabilità che descrive l’esperimento (la tua decisione di cambiare o meno non fa parte del modello).
+Ora, usiamo il modello per calcolare la probabilità di vincita separatamente per i due scenari (quello dove cambi e quello dove non cambi). Per ragioni di simmetria, possiamo sistemare l’etichettatura delle porte in modo che la tua scelta iniziale sia la porta numero 1.
+(b) Supponi che la tua strategia sia di non cambiare. Qual è la probabilità di vincere il premio? 1 (c) Supponi che la tua strategia sia di cambiare dopo che Monty mostra una porta senza premio.
+Qual è la probabilità di vincere il premio?
+\\
+
+\textit{Soluzione} \quad 
+
+\subsubsection{Esercizio 11}
+Piastrelliamo una scacchiera di dimensione $2\times (2n+1)$ con $2n+1$ piastrelle di taglia $2\times1$ in modo che ogni casella sia coperta da esattamente una piastrella. Le piastrelle possono essere disposte orizzontalmente o verticalmente. Assumiamo di scegliere una configurazione a caso in modo che ogni configurazione distinta abbia la stessa probabilità di essere scelta. La figura qui sotto mostra due configurazioni possibili per $2n + 1 = 9$. \\
+(a) Calcolare la probabilità della configurazione con tutte le piastrelle disposte verticalmente. (b) Trovare la probabilità che ci sia una piastrella verticale al centro della scacchiera (nella posizione
+$n + 1$).
+\\
+
+\textit{Soluzione} \quad 
+
+\subsubsection{Esercizio 12}
+Un sacchetto contiene 90 gettoni numerati da 1 a 90. Tre giocatori, detti $A, B , C$ , estraggono (senza reinserimento) 2 gettoni a testa, ed ognuno dei giocatori sceglie il gettone con il valore più grande tra i suoi gettoni. Si stila poi una classifica, in base al valore dei gettoni dal più grande al più piccolo, dei tre giocatori.
+(a) Dire quante sono le estrazioni possibili (ovvero gli insiemi di coppie di gettoni in possesso dei tre giocatori prima della selezione del massimo). Dire se le estrazioni sono equiprobabili, giustificando la propria risposta.
+(b) Dire quanti sono i risultati possibili (ovvero le terne di gettoni dei tre giocatori dopo la selezione
+del massimo). Dire se i risultati sono equiprobabili, giustificando la propria risposta.
+(c) Calcolare le probabilità che A si classifichi primo e che A si classifichi secondo. (d) Calcolare le probabilità del quesito precedente nel caso in cui inizialmente A estragga 2 gettoni,
+B ne estragga 3 e C ne estragga 4.
+\\
+
+\textit{Soluzione} \quad 
