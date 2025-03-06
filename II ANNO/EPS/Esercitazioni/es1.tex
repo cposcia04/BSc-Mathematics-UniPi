@@ -1,15 +1,68 @@
 \section{Esercitazione 06/03/2025}
 \subsubsection{Esercizio 1}
-Tirando un dado non truccato due volte, si descriva uno spazio degli esiti e una misura di probabilità $P$ per modellare il risultato di questo esperimento. Sia $A$ l’evento "\textit{il secondo lancio più grande del primo}". Calcolare la probabilià $P(A)$.
+Tirando un dado non truccato due volte, si descriva uno spazio degli esiti e una misura di probabilità $P$ per modellare il risultato di questo esperimento. Sia $A$ l’evento "\textit{il secondo lancio più grande del primo}". Calcolare la probabilità $P(A)$.
 \\
 
-\textit{Soluzione} \quad 
+\textit{Soluzione} \quad Assumiamo che $\mathcal{F} = \mathcal{P}(\Omega)$
+e consideriamo una probabilità uniforme su $\Omega$. 
+Lo spazio campionario $\Omega$ è dato dall'insieme di tutte le coppie ordinate di risultati ottenibili lanciando due dadi a sei facce:
+\[
+\Omega = \{(\omega_1, \omega_2) \mid \omega_1,\omega_2 \in \{1,\dots,6\}\} = \{1,\dots,6\}^2.
+\]
+Poiché ogni dado ha 6 facce, il numero totale di esiti possibili è:
+\[
+\#\Omega = 6 \cdot 6 = 36.
+\]
+
+Per ogni sottoinsieme $A \subseteq \Omega$, la probabilità di $A$ è definita come:
+\[
+P(A) = \frac{\#A}{\#\Omega} = \frac{\#A}{36}.
+\]
+
+
+L'evento di interesse è:
+\[
+A = \{(\omega_1,\omega_2) \in \Omega \mid \omega_2 > \omega_1\}.
+\]
+Questo rappresenta l'insieme delle coppie in cui il secondo lancio è maggiore del primo.
+
+Per determinare $\#A$, osserviamo che ogni coppia $(\omega_1, \omega_2)$ in cui $\omega_2 > \omega_1$ ha un corrispondente simmetrico $(\omega_2, \omega_1)$ in cui $\omega_1 > \omega_2$, formando così due insiemi equipotenti: $A$ e $B$ (con $B$ definito simmetricamente come l'evento $\omega_1 > \omega_2$).
+
+Inoltre, esiste un insieme $D$ di coppie $(\omega_1,\omega_2)$ in cui i due valori coincidono, ovvero:
+\[
+D = \{(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)\},
+\]
+che ha cardinalità $\#D = 6$.
+
+Poiché lo spazio campionario è partizionato in tre sottoinsiemi disgiunti ($A$, $B$, e $D$) e per simmetria $\#A = \#B$, possiamo scrivere:
+\[
+\#\Omega = 2\cdot \#A + \#D.
+\]
+Sostituendo i valori noti:
+\[
+36 = 2 \cdot \#A + 6.
+\]
+Risolvendo per $\#A$:
+\[
+\#A = \frac{36 - 6}{2} = \frac{30}{2} = 15.
+\]
+
+
+Infine, calcoliamo la probabilità cercata:
+\[
+P(A) = \frac{\#A}{\#\Omega} = \frac{15}{36} = \frac{5}{12}.
+\]
+
 
 \subsubsection{Esercizio 2}
-In un gioco il giocatore ed il banco lanciano entrambi per 10 volte una moneta equilibrata. Il giocatore vince solo se il numero di teste da lui ottenuto è maggiore strettamente del numero di teste ottenuto dal banco. Qual è la probabilità che il giocatore vinca?
+In un gioco il giocatore ed il banco lanciano entrambi per 10 volte una moneta equilibrata. Il giocatore vince solo se il numero di teste da lui ottenuto è maggiore strettamente del numero di teste ottenuto dal banco. Qual è la probabilit`a che il giocatore vinca?
 \\
 
-\textit{Soluzione} \quad 
+
+
+\textit{Soluzione}  
+
+
 
 \subsubsection{Esercizio 3}
 Le $n$ cifre di un numero sono scelte in maniera casuale. Calcolare la probabilità che
@@ -26,7 +79,7 @@ Scrivere poi un’espressione per la probabilità che nel numero il 3 appaia pri
 
 \textit{Soluzione} \quad 
 
-\subsubsection{Esercitazione 5} Due amici si trovano in coda ad uno sportello della loro banca, insieme ad altre n persone. Assumendo di non avere informazioni sul momento del loro arrivo (cioè assumendo che ogni configurazione delle persone in coda è ugualmente probabile), calcolare la probabilità che siano separati
+\subsubsection{Esercizio 5} Due amici si trovano in coda ad uno sportello della loro banca, insieme ad altre n persone. Assumendo di non avere informazioni sul momento del loro arrivo (cioè assumendo che ogni configurazione delle persone in coda è ugualmente probabile), calcolare la probabilità che siano separati
 (a) da esattamente $k$ persone (b) da almeno 3 persone.
 \\
 
@@ -35,17 +88,37 @@ Scrivere poi un’espressione per la probabilità che nel numero il 3 appaia pri
 \subsubsection{Esercizio 6} Si scrivono su 11 foglietti di carta le lettere della parola ABRACADABRA, una per foglietto, e le si pongono in un contenitore. Si estraggono poi, a caso, i foglietti. Qual è la probabilità che le lettere, nell’ordine estratto, diano di nuovo la stessa parola?
 \\
 
-\textit{Soluzione} \quad 
-$\Omega =\{\omega_1,...,\omega_{11} \; | \; \omega_i \in \Omega, \omega_i \ne \omega_j , i\ne j\}$ 
-\\
+\textit{Soluzione} \quad Definiamo l'insieme delle lettere presenti nella parola "ABRACADABRA":
+\[
+S= \{ \text{lettere in "ABRACADABRA"} \} = \{A_1,A_2,A_3,A_4,A_5,B_1,B_2,R_1,R_2,C_1,D_1\},
+\]
+quindi si hanno in totale 11 lettere.
 
-$\Omega_i = \{A_1,A_2,A_3,A_4,A_5,B_1,B_2,C_1,D_1,R_1,R_2\}$ 
-\\
+Lo spazio campionario è dato dall'insieme delle permutazioni di queste lettere:
+\[
+\Omega = \{\text{permutazioni degli oggetti in } S\}, \quad \text{con } \#\Omega = 11!.
+\]
 
-$P(\omega)=\frac{1}{|\Omega|}=\frac{1}{11!}$
-\\
+Definiamo ora l'evento $F$ come l'insieme delle sequenze di 11 caratteri che formano esattamente la parola "ABRACADABRA":
+\[
+F = \{(\omega_1, \dots, \omega_{11}) \in \Omega \mid \omega_k = \text{$k$-esima lettera di "ABRACADABRA"}, \forall k \in \{1, \dots, 11\}\}.
+\]
 
-$P(\{ABRACADABRA\})=\frac{5! \;2!\; 2!}{11!}$
+Questo significa che una sequenza $(\omega_1, ..., \omega_{11})$ appartiene a $F$ solo se ogni carattere $\omega_k$ della sequenza coincide con la corrispondente lettera nella parola "ABRACADABRA".
+
+Il numero di permutazioni valide è dato da:
+\[
+\# F = 5! \cdot 2! \cdot 1! \cdot 1! \cdot 2! = 480.
+\]
+
+La probabilità di ottenere esattamente la parola "ABRACADABRA" è quindi:
+\[
+P(F) = \frac{\#F}{\#\Omega} = \frac{480}{11!}.
+\]
+
+
+
+
 
 \subsubsection{Esercizio 7} Quattro giocatori sono ad un tavolo da poker. Determinare la probabilità che, una volta distribuite le
 carte (ognuno dei quattro giocatori riceve 5 carte),
