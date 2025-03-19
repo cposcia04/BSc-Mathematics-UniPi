@@ -36,6 +36,3 @@
 
 - **Lezione 22 (28 mag 2024):** Moto di un corpo in un campo centrale a simmetria sferica (cont.): calcolo delle orbite a partire dalla legge di gravitazione universale di Newton. Dimostrazione della 3^a legge di Keplero nel caso di orbite ellittiche. Sistemi planetari extrasolari, esempi: Kepler-90; TRAPPIST-1. 
 
-## Laboratorio
-
-- **Lab 01 (5 mar 2024):** (Manca il contenuto della lezione)
