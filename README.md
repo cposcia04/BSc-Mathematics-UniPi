@@ -14,7 +14,7 @@
 - [Elementi di Probabilità e Statistica](./II%20ANNO/EPS) (6 cfu)
 - Analisi Matematica 2 (12 cfu)
 - Geometria 2 (12 cfu)
-- Elementi di teoria degli insiemi (6 cfu)
+- A scelta (Ricerca Operativa) (6 cfu)
 - Inglese scientifico (6 cfu) - idoneità
 
  ## III anno
@@ -23,5 +23,5 @@
 - Meccanica razionale (6 cfu)
 - A scelta (6 cfu)
 - A scelta (6 cfu)
-- Ricerca operativa (6 cfu)
-- Analisi Matematica 3 (6 cfu)
+- A scelta (6 cfu)
+- A scelta (6 cfu)
