@@ -1,0 +1,201 @@
+\section{Foglio 2}
+\subsection{Esercizio 1}
+Un giocatore lancia due dadi. Se il risultato del lancio del primo dado è 3, qual è la probabilità che la somma dei risultati sia almeno 6? Rispondere a questa domanda facendo uso esplicito della definizione di probabilità condizionata.
+\\
+
+\textit{Soluzione} \quad Siano \( A=\{\text{primo lancio} = 3\} \) e \( B=\{\text{somma almeno } 6\} \). Dalla definizione di probabilità condizionata si ha:
+
+\[
+P(B\mid A)=\frac{P(A\cap B)}{P(A)}
+\]
+
+Poiché il primo dado ha già mostrato un 3, ci sono 6 possibili risultati per il secondo dado:
+
+\[
+(3,1), (3,2), (3,3), (3,4), (3,5), (3,6)
+\]
+
+Quindi, la probabilità dell'evento \( A \) è:
+
+\[
+P(A) = \frac{1}{6}
+\]
+
+L'evento \( B \) si verifica quando la somma è almeno 6, cioè:
+
+\[
+(3,3), (3,4), (3,5), (3,6)
+\]
+
+Questi sono 4 casi su 36, quindi:
+
+\[
+P(A\cap B) = \frac{4}{36} = \frac{1}{9}
+\]
+
+Ora calcoliamo la probabilità condizionata:
+
+\[
+P(B\mid A) = \frac{P(A\cap B)}{P(A)} = \frac{1}{9} \cdot 6 = \frac{2}{3}
+\]
+
+
+\subsection{Esercizio 2} Due contenitori contengono rispettivamente il primo, 5 palline rosse e 7 nere, il secondo 8 palline rosse e 3 nere. Si sceglie a caso un contenitore e da esso si estraggono due palline, che risultano essere entrambe rosse. Qual è la probabilità che le palline siano state estratte dal primo contenitore?
+\\
+
+\textit{Soluzione} \quad
+
+
+\[
+P(\omega_0 = A \mid \{ \omega_1, \omega_2 \} = (r,r)) =
+\frac{P(\{ \omega_1, \omega_2 \} = (r,r) \mid \omega_0 = A) P(\omega_0 = A)}
+{P(\{ \omega_1, \omega_2 \} = (r,r))}
+\]
+
+Per la regola della probabilità totale:
+
+\[
+P(\{ \omega_1, \omega_2 \} = (r,r)) =
+P(\{ \omega_1, \omega_2 \} = (r,r) \mid \omega_0 = A) P(\omega_0 = A) +
+P(\{ \omega_1, \omega_2 \} = (r,r) \mid \omega_0 = B) P(\omega_0 = B)
+\]
+
+
+Se scegliamo il contenitore \( A \):
+
+\[
+P(\{ \omega_1, \omega_2 \} = (r,r) \mid \omega_0 = A) = \frac{5}{12} \times \frac{4}{11} = \frac{5 \cdot 4}{12 \cdot 11} = \frac{20}{132}
+\]
+
+Se scegliamo il contenitore \( B \):
+
+\[
+P(\{ \omega_1, \omega_2 \} = (r,r) \mid \omega_0 = B) = \frac{8}{11} \times \frac{7}{10} = \frac{8 \cdot 7}{11 \cdot 10} = \frac{56}{110}
+\]
+
+
+
+Poiché i contenitori sono scelti con probabilità \( \frac{1}{2} \):
+
+\[
+P(\{ \omega_1, \omega_2 \} = (r,r)) =
+\left( \frac{20}{132} \times \frac{1}{2} \right) + \left( \frac{56}{110} \times \frac{1}{2} \right)
+\]
+
+\[
+= \frac{20}{264} + \frac{56}{220}
+\]
+
+Portiamo tutto allo stesso denominatore:
+
+\[
+= \frac{20 \times 5}{1320} + \frac{56 \times 6}{1320} = \frac{100}{1320} + \frac{336}{1320} = \frac{436}{1320}
+\]
+
+
+\[
+P(\omega_0 = A \mid \{ \omega_1, \omega_2 \} = (r,r)) =
+\frac{\frac{20}{264} \times \frac{1}{2}}{\frac{436}{1320}}
+\]
+
+\[
+= \frac{20}{528} \times \frac{1320}{436} = \frac{20 \times 1320}{528 \times 436} = \frac{1}{1 + \frac{14}{5} \cdot \frac{6}{5}}
+\]
+
+\[
+= \frac{1}{1 + \frac{84}{25}} = \frac{1}{1 + 3.36} = \frac{1}{4.36} \approx 0.229
+\]
+
+
+
+\[
+P(\omega_0 = A \mid \{ \omega_1, \omega_2 \} = (r,r)) \approx 0.229
+\]
+
+
+\subsection{Esercizio 3}
+Due dadi vengono tirati. Consideriamo i tre seguenti eventi:
+A = il primo dado dà un numero dispari, B = il secondo dado dà un numero pari, C = la somma dei due risultati è pari.
+(a) Dire se i tre eventi A, B, C sono indipendenti. (b) Dire se sono a due a due indipendenti. \\
+
+\textit{Soluzione} \quad
+
+\subsection{Esercizio 4}
+Sappiamo che il $4\%$ della popolazione èaffetto da una certa malattia. Abbiamo a disposizione un test con le seguenti caratteristiche: se la persona è malata, il test è positivo con probabilità pari a 0.95, se la persona è sana, il test è positivo con probabilità pari a 0.15.
+(a) Qual è la probabilità che una persona sia malata se è risultata positiva al test? (b) Qual è la probabilità che una persona sia sana se è risultata negativa al test?
+\\
+
+\textit{Soluzione} \quad
+
+\subsection{Esercizio 5} 
+Una coppia ha due figli.
+(a) Se almeno uno dei due è maschio, qual è la probabilità che entrambi i figli siano maschi? (b) Si incontra per per caso uno dei due figli della coppia e si osserva che è maschio. Qual è la probabilità che entrambi i figli siano maschi?
+\\
+
+\textit{Soluzione} \quad
+\subsection{Esercizio 6} 
+Siano $A, B, C$ tre eventi. Consideriamo le due affermazioni: \\
+$H_1$ : “$A$, $B$ sono indipendenti” e \\
+$H_2$ : “$A$, $B$ sono indipendenti condizionatamente a $C$” (ovvero $P (A\cap B\mid C) = P (A\mid C)\;P (B\mid C)$). \\
+(a) Vale l’implicazione $H_1 \Rightarrow H_2$ ? \\ 
+(b) Vale l’implicazione $H_2 \Rightarrow H_1$ ? \\
+(c) Sotto quali ipotesi su $C$ vale $H_1 \iff H_2$ ?
+\\
+
+\textit{Soluzione} \quad
+\subsection{Esercizio 7} 
+Mostrare che, se A, B e C sono eventi indipendenti, allora $A \cap  B$ e C sono eventi indipendenti. Mostrare che il viceversa non vale. Mostrare lo stesso per $A \cup B$ e $C$.
+\\
+
+\textit{Soluzione} \quad
+\subsection{Esercizio 8} 
+Un mago dice di possedere una moneta magica che alterna perfettamente tra lanci risultanti in testa e croce (se la volta precedente ha dato testa, la prossima volta darà croce e viceversa con probabilità 1). Uno scettico, prima di vedere l’esperimento, pensa che ci sia solo l’$1\%$ di probabilità che la moneta abbia questa proprietà, e chiede al mago di convincerlo del contrario. Quanti lanci alternati dovranno essere osservati dallo scettico perché (secondo lui) la probabilità che la moneta abbia la proprietà professata dal mago sia maggiore del $99\%$?
+\\
+
+\textit{Soluzione} \quad
+
+\subsection{Esercizio 9} 
+Ci sono $n$ contenitori, numerati da $1$ a $n$. Il contenitore $k$-esimo contiene $k$ palline rosse e $n - k$ palline nere. Si sceglie a caso un contenitore e da questo si estrae una pallina. Qual è la probabilità che la pallina sia rossa? Si eseguono due estrazioni, ognuna con la medesima modalità usata in precedenza. Qual è la probabilità che entrambe le palline siano rosse, se dopo la prima estrazione la pallina estratta viene rimessa nel contenitore da cui era stata estratta? Qual è la probabilità se invece la pallina non viene rimessa?
+\\
+
+\textit{Soluzione} \quad
+
+
+\subsection{Esercizio 10} 
+(Monty Hall 2.0) Risolvere il problema 10 del foglio di esercizi 1 usando la formula di Bayes: Assumiamo che tu abbia scelto la porta 1 e che Monty abbia aperto la porta 3 rivelando una capra (i numeri delle porte scelta e aperta sono scelti senza perdita di generalità). Calcolare la probabilità
+
+
+\[P (\text{premio è dietro porta 1 $\mid$ porta 3 è aperta e contiene capra})\]
+assumendo che: 
+ (a) Monty sappia dietro che porta c’è il premio. Se il premio è dietro la porta 1 sceglie a caso che porta aprire, altrimenti apre l’unica porta non scelta e che contiene la capra. 
+(b) Monty abbia dimenticato che porta contiene il premio (quindi apre una porta a caso).
+\\
+
+\textit{Soluzione} \quad
+
+\subsection{Esercizio 11} 
+Sia $s \in  (1, \infty)$. La funzione zeta di Riemann è definita come segue
+\[\zeta(s):=\sum_{n=1}^{\infty}\frac{1}{n^s}\]
+Vogliamo dimostrare che 
+\[\zeta(s)=\frac{1}{\prod_i(1-p_i^{-s})}\]
+dove $p_1=2,\; p_2=3\; p_3=5,...$ sono i numeri primi (in ordine). \\
+(a) Si consideri lo spazio di probabilità $(\mathbb{N}, 2^{\mathbb{N}}, P)$ dove 
+\[P(A)=\frac{1}{\zeta(s)}\sum_{n\in A}\frac{1}{n^s}\]
+per ogni $A\in 2^{\mathbb{N}}$. Dimostrare che $(\mathbb{N}, 2^{\mathbb{N}}, P)$ è uno spazio di probabilità. \\
+(b) Sia $p$ un numero primo, e $N_p:=\{n \in \mathbb{N} \mid n \text{ è diviso da } p\}$. Calcolare $P(N_p)$ \\
+(c) Dimostrare che gli eventi $\{N_{p_i}\}_{i\geq 1}$ sono mutualmente indipendenti. \\
+(d) Calcolare $P(\cap_{i \geq 1} N^c_{p_i})$ e dedurre il risultato desiderato.
+
+
+\\
+
+\textit{Soluzione} \quad
+
+\subsection{Esercizio 12} 
+Ci sono $n$ candidati per un posto di lavoro. Si ammetta che i candidati possano essere ordinati dal migliore al peggiore. L’esaminatrice incontra sequenzialmente n candidati, uno dopo l’altro, in ordine casuale. L’esaminatrice deve scegliere se accettare o rifiutare ogni candidato alla fine del colloquio corrispondente, senza possibilità di tornare indietro e cambiare la propria decisione. La strategia utilizzata (chiamata strategia $k$) è la seguente: si intervistano e rifiutano automaticamente $k$ candidati e dopodiché si assume il primo candidato che è “meglio” di tutti i precedenti (inclusi i primi $k$). Se non c’è un tale candidato, viene assunto l’ultimo candidato. Il parametro $k$ è scelto e fissato prima dell’inizio dei colloqui. \\
+(a) Per $n$ fisso, calcolare la probabilità che la strategia $k$ porti all’assunzione del miglior candidato per $k\in \{1,...,n\}$, \\
+(b) Per valori grandi di $n$ sia $k^*$ il valore di $k$ che massimizza la probabilità di assumere il miglior candidato. Si esprima $k^*$ come funzione di $n$.  \\
+(c) Si trovi il limite $k^*$/$n$ per $n \to \infty$.
+\\
+
+\textit{Soluzione} \quad
